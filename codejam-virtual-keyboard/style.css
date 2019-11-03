@@ -1,0 +1,50 @@
+.textarea {
+  width: 1000px;
+  margin: 100px auto;
+}
+textarea {
+  width: 1000px;
+}
+#keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1000px;
+  border: 2px solid #B03060;
+  padding: 10px;
+  background-color: #E6E6FA;
+  border-radius: 4%;
+}
+.key-def {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #B03060;
+  margin: 3px;
+  padding: 3px;
+  background-color:  #E6E6FA;
+  border-radius: 10%;
+  color:  #B03060;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.clearfix {
+  clear: both;
+  display: block;
+  width: 100%;
+
+}
+.special-key {
+  background:#E6E6FA;
+}
+.keypress {
+  background: #D8BFD8;
+  transition: all 0.2s ease;
+  border-radius: 10%;
+}
+p {
+  text-align: center;
+}
